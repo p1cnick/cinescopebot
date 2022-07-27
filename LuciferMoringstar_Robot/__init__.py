@@ -28,7 +28,7 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  CineScope Bot V1
+➥ Name : CineScope Bot V1
 
 ➥ Language : Python3
 
