@@ -180,7 +180,7 @@ def get_size(size):
     size = float(size)
     i = 0
     while size >= 1024.0 and i < len(units):
-        i += 3
+        i += 2
         size /= 1024.0
     return "%.2f %s" % (size, units[i])
 
