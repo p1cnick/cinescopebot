@@ -28,7 +28,7 @@ Bot Owner Only
 """
 
 ABOUT = """
-➥ Name :  Auto Filter V3
+➥ Name :  CineScope Bot V1.0
 
 ➥ Language : Python3
 
