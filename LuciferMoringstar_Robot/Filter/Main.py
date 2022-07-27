@@ -178,10 +178,10 @@ def get_size(size):
 
     units = ["Bytes", "KB", "MB", "GB", "TB", "PB", "EB"]
     size = float(size)
-    i = 0
-    while size >= 3072.0 and i < len(units):
+    i = 1
+    while size >= 1024.0 and i < len(units):
         i += 1
-        size /= 3072.0
+        size /= 1024.0
     return "%.2f %s" % (size, units[i])
 
 def split_list(l, n):
